@@ -1,0 +1,54 @@
+.form-box {
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px black;
+  overflow: hidden;
+  padding: 15px;
+  background-color: rgb(206, 252, 252);
+}
+
+.form-header {
+  border-radius: 10px;
+  background-color: rgb(115, 224, 215);
+  padding: 15px 15px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.form-header-title {
+  font-size: 24px;
+  margin: 0;
+  /* margin-top: 50px; */
+}
+
+.fomr-body {
+  padding: 20px 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgb(68, 136, 0);
+  background-color: rgb(241, 221, 194);
+  border: 1px solid darkgray;
+  /* 通常喜歡上下一致 */
+  border-radius: 10px;
+}
+
+.submit-btn {
+  background-color: rgb(255, 0, 0);
+  border: 1px solid purple;
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 10px 20px;
+  /* 變圓角 */
+  border-radius: 10px;
+}
